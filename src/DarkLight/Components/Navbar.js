@@ -11,6 +11,7 @@ function Navbar(props) {
                 className="navLogo_icon"
                 src={props.darkMode ? "./images/logodark.svg" : "./images/awdlogo.svg"}
                 fill={"red"}
+                alt="AWD Logo"
             />
             <h3 className="navLogo_text">Advanced Web Development</h3>
             <Form className="toggler">
